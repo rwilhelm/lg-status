@@ -1,0 +1,21 @@
+// var printStatus = function() {
+//   process.stdout.write(sprintf("%-22s", service));
+//   process.stdout.write(chalk.green(sprintf("%-20s", res.statusMessage)));
+//   process.stdout.write(sprintf("%-8s", (new Date() - start) + ' ms'));
+//   console.log(sprintf("%-20s", 'http://' + base + service));
+// };
+
+// var color;
+// switch(true) {
+// 	case /2../.test(res.statusCode): color = 'green'; break;
+// 	case /3../.test(res.statusCode): color = 'yellow'; break;
+// 	case /4../.test(res.statusCode): color = 'red'; break;
+// 	case /5../.test(res.statusCode): color = 'red'; break;
+// 	default: color = 'white';
+// }
+
+// process.stdout.write(sprintf("%-22s", service));
+// process.stdout.write(chalk[color](sprintf("%4s ", res.statusCode)));
+// process.stdout.write(chalk[color](sprintf("%-20s", res.statusMessage.toUpperCase().replace(/ /g, '_'))));
+// process.stdout.write(sprintf("%-8s", (new Date() - start) + ' ms'));
+// console.log(sprintf("%-20s", 'http://' + base + service));

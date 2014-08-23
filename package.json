@@ -1,0 +1,23 @@
+{
+  "name": "lg-status",
+  "version": "0.0.1",
+  "description": "lg-status",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^2.3.0",
+    "chalk": "^0.5.1",
+    "express": "^4.8.5",
+    "morgan": "^1.2.3",
+    "nodemailer": "^1.2.1",
+    "nodemailer-smtp-transport": "^0.1.12",
+    "request": "^2.40.0",
+    "simplesmtp": "^0.3.32",
+    "sprintf": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "René Wilhelm",
+  "license": "ISC"
+}
